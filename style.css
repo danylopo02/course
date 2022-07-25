@@ -1,0 +1,458 @@
+body{
+  background-color: wheat;
+}
+/*navigation*/
+#menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    border: 1px red solid;
+    border-radius: 50px;
+    text-align: center;
+    width: auto;
+    padding: 1%;
+    background-color: red;
+}
+.nav{
+    color:wheat;
+    text-align: center;
+    padding-right: 5%;
+}
+a:visited{
+    color: wheat;
+}
+a:hover{
+  display: flex;
+  flex-direction: row;
+}
+h1{
+    text-align: center;
+    margin: 5%;
+}
+.images{
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  justify-content: center;
+  margin: 1%;
+}
+img{
+  width: 200px;
+  height: 100px;
+}
+
+/* Task 1 */
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5%;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background:red;
+    margin:2px;
+    
+}
+.row1{
+  text-align: center;
+}
+.box1{
+  display: inline-block;
+  background:red;
+  vertical-align: middle;
+  height:100px;
+  width: 100px;
+}
+.row2{
+  position:relative;
+  margin-top: 25px;;
+}
+.leftDIV{
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:100px;
+  width:100px;
+  background:red;
+}
+.middleDIV{
+  height:100px;
+  width:100px;
+  background:red;
+  margin:0px auto;
+}
+.rightDIV{
+  position:absolute;
+  top:0px;
+  right:0px;
+  height:100px;
+  width:100px;
+  background:red;
+}
+.row3{
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+}
+.box3{
+  height:100px;
+  width:100px;
+  background:red;
+}
+.box4 {
+  float: left;
+  padding: 10px;
+  height:100px;
+  background: red;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.left4, .right4 {
+  width: 30%;
+  background: red;
+}
+
+.middle4 {
+  width: 30%;
+  background: red;
+}
+.row5{
+display: table;
+}
+.box5{
+  height:100px;
+  width:100px;
+  background:red;
+}
+th{
+  width: 100px;
+  height:100px;
+  background: red;
+  text-align: center;
+}
+h1, h2{
+  text-align: center;
+}
+
+/* Task 2 */
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color:gold;
+    margin: auto;
+}
+.div2{
+  height: 100px;
+  width: 100px;
+  background-color:gold;
+  display: inline-block;
+  margin-top: 25px;
+  
+}
+.parentDIV2{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.div3{
+  height: 100px;
+  width: 100px;
+  background-color:gold;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.div4{
+  height: 100px;
+  width: 100px;
+  background-color:gold;
+  margin: 0 auto;
+
+}
+.div5{
+  height: 100px;
+  width: 100px;
+  background-color:gold;
+  margin-top: 25px;
+  position:relative;
+  left: 42%;
+}
+.div6{
+  height: 100px;
+  width: 100px;
+  background-color:gold;
+  margin-top: 25px;
+  position: absolute;
+  top: 102%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.div7{
+  height: 100px;
+  width: 100px;
+  background-color:gold;
+  margin-top: 25px;
+  position: fixed;
+  top:100%;
+  left:50%
+}
+.parentDIV8{
+  display: grid;
+  justify-content: center;
+}
+.div8{
+  height: 100px;
+  width: 100px;
+  background-color:gold;
+  margin-top: 150px;
+}
+/* Task 3 */
+.parent1{
+    height: 500px;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color:green;
+}
+.parent2{
+  height: 500px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.parent3{
+  height: 500px;
+  width: 100px;
+  position: relative;
+}
+.relative{
+  position:absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  height: 100px;
+
+}
+.parent4{
+  height: 500px;
+  width: 100px;
+  position: relative;
+
+}
+.top50{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.parent5{
+  height: 500px;
+  width: 100px;
+  display: grid;
+}
+.grid{
+  justify-self: center;
+  align-self: center
+}
+/* Task 4 */
+.gridArrows{
+  display: grid;
+  grid-row: 3;
+  grid-column: 3;
+}
+.task4{
+    display: block;
+}
+.left,.top,.right,.bottom{
+    margin: 5%;
+    height: 100px;
+    width: 100px;
+    box-shadow: -2px 2px 0 red;
+    float: left;
+}
+.left{
+    transform: rotate(45deg);
+}
+.top{
+    transform: rotate(135deg);
+}
+.right{
+    transform: rotate(225deg);
+}
+.bottom{
+    transform: rotate(-45deg);
+}
+
+.arrowBorder{
+  position: relative;
+  top: 5%;
+  margin: 5%;
+  height: 100px;
+  width: 100px;
+  border: 0 solid green;
+  border-bottom-width: 45px;
+  border-right-width: 45px;
+  border-right-color: red;
+
+}
+/* Task 5 */
+.circle{
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  justify-content: center;
+}
+.circle1{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border:1px solid red;
+    background: red;
+    margin-top: 20%;
+}
+.circle2{
+    width: 27px;
+    height: 27px;
+    shape-outside: circle();
+    clip-path:circle() ;
+    background: red;
+    margin: 20%;
+}
+.circle3:before {
+    content: ' \25CF';
+    color: red;
+    font-size: 65px;
+  }
+/* 25CF - unicode */
+
+.circle4{
+    color: red;
+    font-size: 100px;
+    vertical-align: top;
+}
+/* Task 6 */
+.circleDOM1{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.circleDOM1::after{
+  content: '';
+  display: inline-block;
+  position: relative;
+  margin: 100%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+}
+/* Task 7 */
+.circleDOM2::after{
+  content: '';
+  display: inline-block;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: 25px 25px red;
+}
+.circleDOM2{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 25px;
+  box-shadow: 25px 25px red;
+  
+  
+}
+.circleDOM2::before{
+  content: '';
+  display: inline-block;
+  position: relative;
+  left: 100%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+
+/* Task 8 */
+.task8{
+    display: relative;
+    top:100%;
+    margin: auto;
+}
+  .square{
+    width:30px;
+    height:30px;
+    background:red;
+    position:absolute;
+    top:0; 
+    bottom:0; 
+    left:0;
+    right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 6s linear infinite;
+  }
+  
+@keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-165px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-165px)
+                rotate(-360deg);
+    }
+  }
+  /* Task 9 */
+  .task9 {
+    margin-bottom: 10px;
+  }
+  
+  
+  .task9 div {
+    display: inline-block;
+    padding: 50px;
+    background-color: red;
+    position: relative;
+    overflow-x: hidden;
+  
+  }
+  
+  .squareLinear {
+    animation: first 2s linear forwards 0ms,
+    back 2s linear alternate 5s infinite;
+  
+  }
+  
+  @keyframes first {
+    0% {
+      left: 0;
+  
+    }
+    100% {
+        left: 100%;
+    
+      }
+    
+    }
+    
